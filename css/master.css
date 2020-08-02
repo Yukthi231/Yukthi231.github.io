@@ -61,7 +61,7 @@
     margin: 0 auto;
     text-align: left;
   }
-
+<style>
 .split {
   height: 100%;
   width: 86%;
@@ -95,3 +95,4 @@
   content: "";
   display: table;
   clear: both;
+</style>
