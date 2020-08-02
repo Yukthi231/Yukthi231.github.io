@@ -61,3 +61,37 @@
     margin: 0 auto;
     text-align: left;
   }
+
+.split {
+  height: 100%;
+  width: 86%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+  background-color: #D3D3D3;
+}
+
+.right {
+  right:0;
+  background-color:white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 500px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
